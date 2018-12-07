@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="startAnalogTime(); startDigitalTime()">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="clock">
+                    <span id="clock-dot"></span>
+                    <div class="seconds"></div>
+                    <div class="minutes"></div>
+                    <div class="hours"></div>
+                </div>
+                <span id="dayTime"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
