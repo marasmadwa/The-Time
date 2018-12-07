@@ -1,4 +1,4 @@
-# The-Time
+# The-Time :coffee: :alarm_clock:
 pure JS, HTML and CSS clock
 
 ### Project preview:
